@@ -1,12 +1,11 @@
 public class ArrayExample {
 
-    public static String[] getStudents(int size) {
-        String[] studentArray = new String[size];
+    public static String[] createStudentsArray(int size) {
+        String[] students = new String[size];
 
-        for (int i = 0; i < studentArray.length; i++) {
-            studentArray[i] = "Student " + (i + 1);
+        for (int i = 0; i < students.length; i++) {
+            students[i] = "Student " + (i + 1);
         }
-        return studentArray;
+        return students;
     }
 }
-
